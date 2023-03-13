@@ -1,0 +1,21 @@
+Distância de entre as cidade e de 100 km (informações do Google mapas)
+velocidade carro = 110km 
+velocidade – caminhão = 80km 
+tempo -pedágio = 5
+
+********************************* carro *******************************************
+tempo = distância / velocidade
+Vamos fazer a distância entre as cidades dividido pela velocidade do veículo 
+tempo = 100 / 110
+tempo = 0,91 horas
+lembrando que não foi utilizado o pedágio para o carro, pois o caro utiliza a tag de pedágio (Sem Parar)
+
+******************************** caminhão ******************************************
+lembrando que o caminhão pausou por dois pedágios e gastou 5 minutos em cada um deles e dividimos por 60 para igualar em horas 
+tempo = distância / velocidade + ((5*2)/60)       ("O valor foi aredondado para cima")
+tempo = 100 / 80 + 0,17
+tempo = 1,42 horas
+
+
+RESPOSTA: O carro estará mais próximo de Ribeirão Preto
+Motivo dessa RESPOSTA: como o carro está viajando a uma velocidade maior do que o caminhão, ele terá percorrido essa distância em menos tempo. Portanto, no momento em que se cruzarem, o carro estará mais próximo de Ribeirão Preto do que o caminhão.
